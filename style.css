@@ -1,0 +1,254 @@
+* {
+  font-family: 'EB Garamond', serif;
+}
+
+header {
+  background-color: rgb(218, 211, 211);
+  padding-left: 3px;
+  padding-right: 3px;
+
+}
+
+.menu_header {
+  color: rgb(42, 165, 69);
+  display: flex;
+  text-align: right;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.menu {
+  display: flex;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.title {
+  text-align: center;
+  color: aliceblue;
+}
+
+/* unvisited link */
+.menu_item:link {
+  color: #000000;
+}
+
+/* visited link */
+.menu_item:visited {
+  color: #0073ff;
+}
+
+/* mouse over link */
+.menu_item:hover {
+  color: #b0b0b0;
+}
+
+/* selected link */
+.menu_item:active {
+  color: #ffffff;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-image: url(./Images/background2.jpg);
+  background-size: 40%, 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: black;
+  font-size: 40px;
+}
+
+.meet {
+  padding-top: 5%;
+  color: white;
+}
+
+.center_images {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.warframe {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_video {
+  font-size: 40px;
+}
+
+footer {
+  color: white;
+  padding-top: 10px;
+}
+
+.ninja {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  text-align: center;
+}
+
+.welcome {
+  color:red;
+  font-weight: bold;
+}
+
+/*Here Starts join_the_guild.html specific style*/
+
+.guild {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-image: url(./Images/backgroundguild.webp);
+  background-size: 40%, 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: aqua;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #CCA383; 
+  width: 50%; 
+  bottom: #FFE8EF; 
+  padding: 3px;
+  padding-left: 30px;
+  margin-left: 27%;
+}
+
+fieldset legend{ 
+  bottom: #CCA383;
+  padding: 6px;
+  font-weight: bold;
+}
+
+input {
+  font-size: 30px;
+}
+
+select {
+  font-size: 30px;
+}
+
+label {
+  color: white;
+}
+
+legend {
+  color: white;
+}
+
+.text_join {
+  color: white;
+  text-align: left;
+  width: 56%;
+}
+
+.title_join {
+  color: #ffffff;
+  text-align: center;
+}
+
+.rules {
+  color: #ffffff;
+}
+
+/*Here Ends join_the_guild.html specific style*/
+
+/*Here Starts members.html specific style*/
+.members {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-image: url(./Images/backgroundshadow.jpg);
+  background-size: 40%, 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+
+.guild_members {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+}
+
+.member_text {
+  color: white;
+  padding-left: 5%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*Here Ends members.html specific style*/
+
+/*Here Starts fashion_frame.html specific style*/
+
+.fashion {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-image: url(./Backgrounds/backgroundfashion2.jpg);
+  background-size: 40%, 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: black;
+  font-size: 40px;
+}
+
+.father_gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+}
+
+img {
+  border: #000000;
+  border-radius: 2px;
+  border-width: 3px;
+}
+
+/*Here Ends missions.html specific style*/
+
+.missions {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-image: url(./Backgrounds/backgroundmissions.png);
+  background-size: 40%, 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: black;
+  font-size: 40px;
+}
+
+/*Here Starts missions.html specific style*/
+

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <title>PrimeFrames</title>
+</head>
+<body>
+<header>
+  <div class="menu_header">
+    <div>
+      <a href="https://www.warframe.com" target="_blank">
+        <img src="Logos/WarframeLogo1.png" alt="Warframe Logo here" width="350" height="160px">
+      </a>
+    </div>
+    <div>
+      <nav class="menu">
+        <ul><a href="index.html" target="_blank" class="menu_item">Home</a></ul>
+        <ul><a href="join_the_guild.html" target="_blank" class="menu_item">Join PrimeFrames</a></ul>
+        <ul><a href="missions.html" target="_blank" class="menu_item">Missions</a></ul>
+        <ul><a href="members.html" target="_blank" class="menu_item">Members</a></ul>
+        <ul><a href="fashion_frame.html" target="_blank" class="menu_item">Fashion Frame</a></ul>
+      </nav>
+    </div>
+  </div>
+</header>
+  <div class="welcome">
+  <H1 class="title">The PrimeFrames</H1>
+  <p class="title">Welcome to the PrimeFrames! We are a friendly guild focused on farming Relics together, sell Warframes, help you in
+    your Account progress, and more!</p>
+  <br>
+  <p class="title">
+    <a href="join_the_guild.html" target="_blank" class="menu_item">Join us!</a>
+    In order to build the best Guild in the game.
+  </p>
+  </div>
+  <div class="center_images">
+    <iframe width="1200" height="677" src="https://www.youtube.com/embed/9O-yCnQKYhM" title="Warframe | New Intro"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <div class="ninja">
+    <a href="https://www.warframe.com/" target="_blank" class="ninja">
+      <button type="button" class="ninja">Ninjas Play Free</button>
+    </a>
+  </div>
+  <H2 class="meet">Meet the Warframes</H2>
+  <!-- Tab links Referencia:https://www.w3schools.com/howto/howto_js_tabs.asp -->
+  <!--/* Style the tab */-->
+  <style>
+    .tab {
+      overflow: hidden;
+      border: 1px solid rgb(0, 0, 0);
+      background-color: #f1f1f1;
+      font-size: 40px;
+    }
+
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 40px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+      background-color: white;
+      background-image: URL(./Logos/simplelogo.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      align-items: stretch;
+      
+    }
+
+  </style>
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Excalibur')" >Excalibur</button>
+    <button class="tablinks" onclick="openCity(event, 'Mag')">Mag</button>
+    <button class="tablinks" onclick="openCity(event, 'Volt')">Volt</button>
+    <button class="tablinks" onclick="openCity(event, 'Mesa')">Mesa</button>
+    <button class="tablinks" onclick="openCity(event, 'Nidus')">Nidus</button>
+    <button class="tablinks" onclick="openCity(event, 'Loki')">Loki</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="Excalibur" class="tabcontent">
+  <div class="warframe">
+    <h3>Excalibur</h3>
+    <div class="warframe_picture">
+      <img src="Images/Warframes/Excalibur/excalibur-menu.png" alt="Excalibur picture" width="500" height="350">
+    </div>
+    <div class="warframe_description">
+      <h4>Description</h4>
+      <p>Excalibur is the game’s signature Warframe for good reason - he’s a starter ‘frame that scales well into just
+      about every activity in the game. He’s a heavy damage dealer with solid crowd control that opens enemies up to
+      melee finishers and stealth damage bonuses. Excalibur’s real asset, however, is his Exalted Blade - a summoned
+      weapon that chops through enemies and launches energy blades that can travel through walls, and it even benefits
+      from his passive bonus to all sword class weapons. He’s great for players who love melee combat.</p>
+      </div>
+      <div class="stats">
+        <h4>Base Stats:</h4>
+        <ul>
+          <li>Health:100</li>
+          <li>Shield:100</li>
+          <li>Armor:225</li>
+          <li>Energy:100</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h4>Skill set:</h4>
+        <ol>
+          <li>Slash Dash</li>Dast between enemies while slashing with the exalted blade.
+          <li>Radial Blind</li>Emits a bright flash of light, blinging all enemies in a small radius for several seconds.
+          <li>Radial Javelin</li>Launches javelins towards enemies, dealing high damage and impaling them to walls.
+          <li>Exalted Blade</li>Summon a sword of pure light and immense power.
+        </ol>
+      </div>
+      <div class="video_profile">
+        <a href="https://www.youtube.com/watch?v=II8Up3NnZpI" target="_blank">
+          <button class="profile_video" type="button">See Profile Video</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="Mag" class="tabcontent">
+    <h3>Mag</h3>
+    <img src="Images/Warframes/Mag/mag-menu2.png" alt="Mag picture" width="500" height="350">
+    <h4>Description</h4>
+    <p>Mag splits the difference between support and crowd control. She transforms enemies into living magnets that tug
+      their - along with incoming projectiles - toward the center. That makes it much easier for allies to land
+      headshots and small AoE attacks with maximum effect. It works well with Mag’s own Polarize, which strips enemy
+      shields and armor, while giving shields back to nearby allies.</p>
+    <h4>Base Stats:</h4>
+    <ul>
+      <li>Health:75</li>
+      <li>Shield:150</li>
+      <li>Armor:100</li>
+      <li>Energy:125</li>
+    </ul>
+    <h4>Skill set:</h4>
+    <ol>
+      <li>Pull</li>Magnetic force pulls enemies toward you, stunning them and bringing them into melee range.
+      <li>Magnetize</li>(TAP) Encloses a target in a magnetic field, ensnaring nearby enemies and dealing damage over
+      time. Bullets and shards created from polarize increase this damage. (HOLD) Creates a magnetic field around Mag,
+      absorbing ranged attacks and dealing damage back.
+      <li>Polarize</li>Eit an energy pulse that depletes enemy shields and armor, creating shards which become deadly
+      when mixed with Magnetize. Shields of Allies touched by the pulse are restored.
+      <li>Crush</li>Magnetizes the bones of nearby enemies, causing them to collapse upon themselves.
+    </ol>
+    <a href="https://www.youtube.com/watch?v=TS05wxbrNts" target="_blank">
+      <button class="profile_video" type="button">See Profile Video</button>
+    </a>
+  </div>
+
+  <div id="Volt" class="tabcontent">
+    <h3>Volt</h3>
+    <img src="Images/Warframes/Volt/volt-menu.png" alt="Volt picture" width="500" height="350">
+    <h4>Description</h4>
+    <p>Volt has the power to wield and bend electricity. He is highly versatile, armed with powerful abilities that can
+      damage enemies, provide cover and complement the ranged and melee combat of his cell. The electrical nature of his
+      abilities make him highly effective against the Corpus, with their robots in particular.</p>
+    <h4>Base Stats:</h4>
+    <ul>
+      <li>Health:100</li>
+      <li>Shield:150</li>
+      <li>Armor:100</li>
+      <li>Energy:100</li>
+    </ul>
+    <h4>Skill set:</h4>
+    <ol>
+      <li>Shock</li>Launches a shocking projectile. It stunds and deals high damage to a single target and chains damage
+      to nearby enemies.
+      <li>Speed</li>Gain a brief boost of movement speed which affects all allies in range.
+      <li>Electric Shield</li>Volt deploys an obstacle of energy, providing cover in any situation.
+      <li>Discharge</li>Paralyze nearby hostiles with a damaging electric charge, this also shocks approaching enemies.
+    </ol>
+    <a href="https://www.youtube.com/watch?v=ccQ9456TTuo" target="_blank">
+      <button class="profile_video" type="button">See Profile Video</button>
+    </a>
+  </div>
+
+  <div id="Mesa" class="tabcontent">
+    <h3>Mesa</h3>
+    <img src="Images/Warframes/Mesa/mesa-menu.png" alt="Mesa picture" width="500" height="350">
+    <h4>Description</h4>
+    <p>Mesa players should believe the best defense is a good offense. She provides a damage buff that cycles between
+      teammates while jamming enemy guns (effectively stunning them). The gunslinger Warframe can also reduce and
+      reflect up to 95 percent of incoming damage, making her deceptively tanky in her own right. But it’s her ultimate
+      skill, Peacemaker, that sets her apart, as she trades mobility and energy over time to auto-target every enemy in
+      her line of sight with massive, scaling damage. As such she’s great at locking down areas, by simply killing
+      everything that approaches.</p>
+    <h4>Base Stats:</h4>
+    <ul>
+      <li>Health:125</li>
+      <li>Shield:75</li>
+      <li>Armor:100</li>
+      <li>Energy:100</li>
+    </ul>
+    <h4>Skill set:</h4>
+    <ol>
+      <li>Ballistic Battery</li>When activated, this power stores damage caused by guns. When triggered again, that
+      damage is channelled through the next gunshot.
+      <li>Shooting Gallery</li>Gives an ally extra damage while jamming the guns of nearby enemies. This power shift
+      between team members.
+      <li>Shatter Shield</li>Envelops Mesa in a barrier of energy, reflecting back incoming bullet damage.
+      <li>Peacemaker</li>With intense focus, Mesa draws her Regulators Pistols, shooting down her foes in rapid
+      succession.
+    </ol>
+    <a href="https://www.youtube.com/watch?v=29nFicujxn4" target="_blank">
+      <button class="profile_video" type="button">See Profile Video</button>
+    </a>
+  </div>
+
+  <div id="Nidus" class="tabcontent">
+    <h3>Nidus</h3>
+    <img src="Images/Warframes/Nidus/nidus-logo.jpg" alt="Nidus picture" width="500" height="350">
+    <h4>Description</h4>
+    <p>Nidus is another shield-less Warframe in the vein of Inaros with an equal focus on tanking. The difference is
+      that Nidus needs extremely lengthy missions to reach his full potential. His basic skill, Virulence, builds stacks
+      of a resource called “mutations” over time, which increase Virulence's own damage, fuel his other abilities, and
+      make him immune to death (as long as he has stacks). This makes him a perfect candidate for endless missions like
+      survival, but unfortunately his mutations reset after every wave of Sanctuary Onslaught.</p>
+    <h4>Base Stats:</h4>
+    <ul>
+      <li>Health:150</li>
+      <li>Shield:0</li>
+      <li>Armor:300</li>
+      <li>Energy:100</li>
+    </ul>
+    <h4>Skill set:</h4>
+    <ol>
+      <li>Virulence</li>Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes,
+      for every five enemies hit, the infestation mutates, multiplying its destructive force.
+      <li>Larva</li>Spawn an infested pod that erupts with tendrils, latches onto nearby enemies and pulls them in.
+      Enemies killed while held have a chance of generating a mutation stack.
+      <li>Parasitic Link</li>Bind to a target with Parasitic Link, when cast on an Ally, both, the Host and Nidus, have
+      their ability strength increased. Linked enemies take some of the damage inflicted on Nidus.
+      <li>Ravenous</li>Gluttonous maggots swarm nearby enemies, feasting until they are hit with Virulence and burst
+      with Infestation. The maggosts benefit from mutation and each enemy hit adds to the mutation stack.
+    </ol>
+    <a href="https://www.youtube.com/watch?v=cmw4le23JX0" target="_blank">
+      <button class="profile_video" type="button">See Profile Video</button>
+    </a>
+  </div>
+
+  <div id="Loki" class="tabcontent">
+    <h3>Loki</h3>
+    <img src="Images/Warframes/Loki/loki-menu.png" alt="Loki picture" width="500" height="350">
+    <h4>Description</h4>
+    <p>Loki is yet another (some might say the definitive) stealth Warframe. He can make himself invisible for extended
+      periods to buff his attacks with a stealth damage modifier. That makes him quite survivable, albeit indirectly so,
+      and a good candidate for spy missions. His other major skill, Radial Disarm, permanently destroys nearby enemies’
+      weapons, which renders Grineer and Corpus foes almost completely harmless.</p>
+    <h4>Base Stats:</h4>
+    <ul>
+      <li>Health:75</li>
+      <li>Shield:75</li>
+      <li>Armor:100</li>
+      <li>Energy:150</li>
+    </ul>
+    <h4>Skill set:</h4>
+    <ol>
+      <li>Decoy</li>Loki deploys a holographic copy of himself, drawing enemy fire.
+      <li>Invisibility</li>Loki camouflages himself, becoming invisible to enemies.
+      <li>Switch Teleport</li>Loki instantaneously swaps positions with a target, confusing the enemy.
+      <li>Radial Disarm</li>Lets forth a wave of energy, disrupting the projectile weapons of enemies in range and
+      forcing them to revert to melee combat.
+    </ol>
+    <a href="https://www.youtube.com/watch?v=VXsg-rMTvAM" target="_blank">
+      <button class="profile_video" type="button">See Profile Video</button>
+    </a>
+  </div>
+
+  <!--Javascript Script-->
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+  <footer id="footer">
+    <div class="container">
+      <div class="copy text-light text-center">
+        &copy; Copyright <strong><span>Daniel Maestre</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits text-light text-center"">
+        Designed by <strong><span>Maestre Noguera S.A.</span></strong>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
